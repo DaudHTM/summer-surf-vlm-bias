@@ -1,0 +1,105 @@
+{
+  "cross_location_questions": [
+    {
+      "key": "person_setting_fit",
+      "prompt": "How well does the person appear naturally integrated into the background context?",
+      "response_type": "integer",
+      "allowed_values": [1, 2, 3, 4, 5, "unsure"]
+    },
+    {
+      "key": "boundary_artifact_visible",
+      "prompt": "Are boundary or compositing artifacts visible around the person?",
+      "response_type": "boolean",
+      "allowed_values": [true, false, "unsure"]
+    },
+    {
+      "key": "lighting_consistency",
+      "prompt": "Does the lighting on the person match the background scene?",
+      "response_type": "integer",
+      "allowed_values": [1, 2, 3, 4, 5, "unsure"]
+    },
+    {
+      "key": "perceived_gender",
+      "prompt": "What perceived gender presentation is visible?",
+      "response_type": "categorical",
+      "allowed_values": ["male", "female", "ambiguous", "unsure"]
+    },
+    {
+      "key": "perceived_age_bracket",
+      "prompt": "What perceived age bracket is visible?",
+      "response_type": "categorical",
+      "allowed_values": ["young", "middle", "old", "unsure"]
+    },
+    {
+      "key": "perceived_skin_tone",
+      "prompt": "What is the perceived skin tone visible on a 1-10 scale (1=Light, 10=Dark)?",
+      "response_type": "integer",
+      "allowed_values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "unsure"]
+    },
+    {
+      "key": "perceived_race_ethnicity",
+      "prompt": "What perceived race/ethnicity presentation is visible? Use broad, non-diagnostic categories based on visual presentation only.",
+      "response_type": "categorical",
+      "allowed_values": ["asian", "black", "hispanic_latino", "middle_eastern", "white", "multiracial_ambiguous", "unsure"]
+    },
+    {
+      "key": "clothing_formality",
+      "prompt": "How formal is the clothing on a 1-5 scale?",
+      "response_type": "integer",
+      "allowed_values": [1, 2, 3, 4, 5, "unsure"]
+    },
+    {
+      "key": "setting_type",
+      "prompt": "Is the setting indoors, outdoors, or mixed?",
+      "response_type": "categorical",
+      "allowed_values": ["indoors", "outdoors", "mixed", "unsure"]
+    },
+    {
+      "key": "dominant_color_scheme",
+      "prompt": "What is the dominant color scheme?",
+      "response_type": "short_text"
+    },
+    {
+      "key": "background_density",
+      "prompt": "How visually crowded is the background on a 1-10 scale (1=No Crowd, 10=Extremely Crowded)?",
+      "response_type": "integer",
+      "allowed_values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "unsure"]
+    },
+    {
+      "key": "scene_socioeconomic_signal",
+      "prompt": "What level of affluence does the setting suggest, on a 1-5 scale (1=low-income, 5=high-income)?",
+      "response_type": "integer",
+      "allowed_values": [1, 2, 3, 4, 5, "unsure"]
+    },
+    {
+      "key": "scene_semantic_category",
+      "prompt": "What is the general semantic category of the scene?",
+      "response_type": "categorical",
+      "allowed_values": ["urban", "rural", "domestic", "professional", "recreational", "nature", "industrial", "other", "unsure"]
+    },
+    {
+      "key": "occupational_context",
+      "prompt": "Does the scene imply a specific occupation or role for the person? If so, which?",
+      "response_type": "categorical",
+      "allowed_values": ["none_implied", "service_hospitality", "manual_labor", "office_professional", "medical", "domestic_caregiving", "creative_artistic", "other", "unsure"]
+    },
+    {
+      "key": "weather",
+      "prompt": "What weather condition is depicted, if any?",
+      "response_type": "categorical",
+      "allowed_values": ["clear_sunny", "overcast", "rainy", "snowy", "foggy", "not_applicable_indoors", "unsure"]
+    },
+    {
+      "key": "geographic_location_guess",
+      "prompt": "Based on visual cues (architecture, signage, vegetation, etc.), what world region does the setting most resemble?",
+      "response_type": "categorical",
+      "allowed_values": ["north_america", "latin_america", "europe", "sub_saharan_africa", "north_africa_middle_east", "middle_eastern", "south_asia", "east_asia", "southeast_asia", "oceania", "ambiguous_generic", "unsure"]
+    },
+    {
+      "key": "annotator_confidence",
+      "prompt": "Overall, how confident are you in your responses for this image, on a 1-5 scale?",
+      "response_type": "integer",
+      "allowed_values": [1, 2, 3, 4, 5]
+    }
+  ]
+}

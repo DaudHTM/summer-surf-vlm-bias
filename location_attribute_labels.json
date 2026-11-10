@@ -1,0 +1,1435 @@
+{
+  "n_locations": 9,
+  "locations_requested": [
+    "shopping mall",
+    "public park",
+    "restaurant",
+    "sports stadium",
+    "religious site",
+    "cultural site",
+    "office building",
+    "public transport",
+    "a street with people, cars, buses, bicycles, etc."
+  ],
+  "model": "qwen3-vl:8b-instruct",
+  "ollama_url": "http://localhost:11434",
+  "max_retries": 2,
+  "n_attrs_requested": 16,
+  "n_labels_requested": 6,
+  "results": [
+    {
+      "location": "shopping mall",
+      "caption": "shopping mall",
+      "n_attrs_requested": 16,
+      "n_labels_requested": 6,
+      "attribute_categories": [
+        "lighting condition",
+        "floor material",
+        "ceiling style",
+        "wall finish",
+        "crowd density",
+        "store signage",
+        "cart present",
+        "checkout counter",
+        "escalator present",
+        "seating area",
+        "handbag present",
+        "shoe type",
+        "coat rack",
+        "mirror present",
+        "kiosk present",
+        "ceiling light fixture"
+      ],
+      "labels_by_attribute": {
+        "lighting condition": [
+          "brightly lit",
+          "dimly lit",
+          "overcast lighting",
+          "spotlighted",
+          "neon illuminated",
+          "fluorescent lit"
+        ],
+        "floor material": [
+          "wooden floor",
+          "carpeted floor",
+          "tile floor",
+          "concrete floor",
+          "vinyl floor",
+          "stone floor"
+        ],
+        "ceiling style": [
+          "flat ceiling",
+          "vaulted ceiling",
+          "exposed beams",
+          "coffered ceiling",
+          "suspended panels",
+          "domed ceiling"
+        ],
+        "wall finish": [
+          "paint",
+          "tile",
+          "wood paneling",
+          "drywall",
+          "vinyl",
+          "metal sheeting",
+          "glass"
+        ],
+        "crowd density": [
+          "empty",
+          "sparse",
+          "moderate",
+          "dense",
+          "very dense",
+          "crowded"
+        ],
+        "store signage": [
+          "no signage",
+          "generic sign",
+          "brand logo",
+          "directional sign",
+          "price tag",
+          "promotion banner",
+          "neon illuminated"
+        ],
+        "cart present": [
+          "cart present",
+          "cart absent",
+          "shopping cart present",
+          "shopping cart absent",
+          "cart visible",
+          "cart not visible"
+        ],
+        "checkout counter": [
+          "checkout counter present",
+          "checkout counter absent",
+          "checkout counter empty",
+          "checkout counter busy",
+          "checkout counter broken",
+          "checkout counter clean"
+        ],
+        "escalator present": [
+          "escalator present",
+          "no escalator",
+          "escalator broken",
+          "escalator empty",
+          "escalator occupied",
+          "escalator out of order"
+        ],
+        "seating area": [
+          "no seating",
+          "bench",
+          "chair",
+          "cushioned seat",
+          "floor seating",
+          "standing area"
+        ],
+        "handbag present": [
+          "handbag present",
+          "handbag absent",
+          "handbag visible",
+          "handbag hidden",
+          "no handbag",
+          "handbag not visible"
+        ],
+        "shoe type": [
+          "sneaker",
+          "boot",
+          "sandals",
+          "heels",
+          "slippers",
+          "barefoot"
+        ],
+        "coat rack": [
+          "no coat rack",
+          "simple coat rack",
+          "multi-tiered coat rack",
+          "wall-mounted coat rack",
+          "floor-standing coat rack",
+          "coat rack with hooks"
+        ],
+        "mirror present": [
+          "mirror present",
+          "mirror absent",
+          "no mirror",
+          "mirror not visible",
+          "mirror hidden",
+          "mirror obscured"
+        ],
+        "kiosk present": [
+          "kiosk present",
+          "no kiosk",
+          "kiosk absent",
+          "kiosk visible",
+          "kiosk hidden",
+          "kiosk not visible"
+        ],
+        "ceiling light fixture": [
+          "none",
+          "pendant light",
+          "recessed light",
+          "cove lighting",
+          "track lighting",
+          "chandelier"
+        ]
+      }
+    },
+    {
+      "location": "public park",
+      "caption": "public park",
+      "n_attrs_requested": 16,
+      "n_labels_requested": 6,
+      "attribute_categories": [
+        "weather condition",
+        "lighting quality",
+        "greenery density",
+        "sky visibility",
+        "presence of water",
+        "recreational equipment",
+        "people activity",
+        "tree canopy coverage",
+        "path surface type",
+        "presence of benches",
+        "presence of dogs",
+        "presence of children",
+        "presence of umbrellas",
+        "presence of bicycles",
+        "presence of trash cans",
+        "presence of signage"
+      ],
+      "labels_by_attribute": {
+        "weather condition": [
+          "clear sky",
+          "partly cloudy",
+          "overcast",
+          "rainy",
+          "snowy",
+          "foggy",
+          "artificial lighting"
+        ],
+        "lighting quality": [
+          "bright natural light",
+          "dim natural light",
+          "overcast lighting",
+          "artificial lighting",
+          "high contrast lighting",
+          "soft diffuse lighting"
+        ],
+        "greenery density": [
+          "sparse grass",
+          "moderate shrubs",
+          "dense trees",
+          "lush canopy",
+          "bare patches",
+          "overgrown vines"
+        ],
+        "sky visibility": [
+          "clear sky",
+          "cloudy sky",
+          "foggy sky",
+          "rainy sky",
+          "overcast sky",
+          "stormy sky"
+        ],
+        "presence of water": [
+          "no water",
+          "pond",
+          "fountain",
+          "lake",
+          "stream",
+          "waterfall"
+        ],
+        "recreational equipment": [
+          "swings",
+          "slide",
+          "秋千",
+          "playground",
+          "sandbox",
+          "basketball hoop"
+        ],
+        "people activity": [
+          "playing sports",
+          "reading book",
+          "walking alone",
+          "sitting on bench",
+          "running",
+          "playing music",
+          "shaking hands",
+          "dancing",
+          "walking",
+          "playing"
+        ],
+        "tree canopy coverage": [
+          "no canopy",
+          "sparse canopy",
+          "moderate canopy",
+          "dense canopy",
+          "full canopy",
+          "canopy absent"
+        ],
+        "path surface type": [
+          "gravel",
+          "concrete",
+          "asphalt",
+          "wooden deck",
+          "paved brick",
+          "mulch"
+        ],
+        "presence of benches": [
+          "no benches",
+          "few benches",
+          "some benches",
+          "many benches",
+          "benches visible",
+          "benches absent"
+        ],
+        "presence of dogs": [
+          "no dogs",
+          "one dog",
+          "multiple dogs",
+          "dogs playing",
+          "dogs resting",
+          "dogs present"
+        ],
+        "presence of children": [
+          "no children",
+          "one child",
+          "two children",
+          "three children",
+          "four children",
+          "five or more children",
+          "multiple children"
+        ],
+        "presence of umbrellas": [
+          "no umbrellas",
+          "one umbrella",
+          "multiple umbrellas",
+          "umbrellas in use",
+          "umbrellas not in use",
+          "umbrellas absent"
+        ],
+        "presence of bicycles": [
+          "bicycle present",
+          "no bicycle",
+          "bicycle parked",
+          "bicycle in motion",
+          "bicycle rack visible",
+          "bicycle absent"
+        ],
+        "presence of trash cans": [
+          "no trash cans",
+          "one trash can",
+          "two trash cans",
+          "many trash cans",
+          "trash cans missing",
+          "trash cans cluttered"
+        ],
+        "presence of signage": [
+          "no signage",
+          "street sign",
+          "park sign",
+          "directional sign",
+          "warning sign",
+          "information sign"
+        ]
+      }
+    },
+    {
+      "location": "restaurant",
+      "caption": "restaurant",
+      "n_attrs_requested": 16,
+      "n_labels_requested": 6,
+      "attribute_categories": [
+        "building material",
+        "color palette",
+        "crowd density",
+        "weather condition",
+        "lighting source",
+        "furniture type",
+        "table arrangement",
+        "chair type",
+        "person attire",
+        "person posture",
+        "food type visible",
+        "drink type visible",
+        "menu board present",
+        "decor style",
+        "window presence",
+        "flooring material"
+      ],
+      "labels_by_attribute": {
+        "building material": [
+          "brick",
+          "stucco",
+          "glass",
+          "metal",
+          "wood",
+          "stone"
+        ],
+        "color palette": [
+          "warm earth tones",
+          "cool pastels",
+          "vibrant reds",
+          "monochrome",
+          "neon accents",
+          "wooden neutrals"
+        ],
+        "crowd density": [
+          "empty",
+          "lightly occupied",
+          "moderately crowded",
+          "heavily crowded",
+          "overflowing",
+          "almost deserted"
+        ],
+        "weather condition": [
+          "clear",
+          "cloudy",
+          "rainy",
+          "snowy",
+          "stormy",
+          "foggy"
+        ],
+        "lighting source": [
+          "overhead fluorescent",
+          "ceiling fan light",
+          "wall sconce",
+          "chandelier",
+          "table lamp",
+          "natural daylight",
+          "ceiling light",
+          "string lights"
+        ],
+        "furniture type": [
+          "dining table",
+          "bar stool",
+          "chair",
+          "counter",
+          "couch",
+          "bar",
+          "table"
+        ],
+        "table arrangement": [
+          "formal set",
+          "casual spread",
+          "centered table",
+          "clustered tables",
+          "single long table",
+          "bar-style seating"
+        ],
+        "chair type": [
+          "wooden chair",
+          "metal chair",
+          "plastic chair",
+          "fabric chair",
+          "bar stool",
+          "high-back chair"
+        ],
+        "person attire": [
+          "formal suit",
+          "casual shirt",
+          "uniform",
+          "dinner gown",
+          "sports jersey",
+          "traditional robe"
+        ],
+        "person posture": [
+          "sitting",
+          "standing",
+          "walking",
+          "leaning",
+          "crouching",
+          "kneeling",
+          "lying down",
+          "bending"
+        ],
+        "food type visible": [
+          "fast food",
+          "fine dining",
+          "street food",
+          "dessert",
+          "buffet",
+          "catered"
+        ],
+        "drink type visible": [
+          "water",
+          "soda",
+          "wine",
+          "beer",
+          "coffee",
+          "tea"
+        ],
+        "menu board present": [
+          "menu board visible",
+          "menu board absent",
+          "menu board mounted",
+          "menu board hanging",
+          "menu board folded",
+          "menu board missing"
+        ],
+        "decor style": [
+          "modern minimalist",
+          "rustic wood",
+          "vintage retro",
+          "art deco",
+          "mid-century modern",
+          "industrial loft"
+        ],
+        "window presence": [
+          "no windows",
+          "one window",
+          "multiple windows",
+          "large windows",
+          "small windows",
+          "windowless"
+        ],
+        "flooring material": [
+          "wooden floor",
+          "tile floor",
+          "carpeted floor",
+          "concrete floor",
+          "vinyl floor",
+          "stone floor",
+          "artificial turf"
+        ]
+      }
+    },
+    {
+      "location": "sports stadium",
+      "caption": "sports stadium",
+      "n_attrs_requested": 16,
+      "n_labels_requested": 6,
+      "attribute_categories": [
+        "stadium roof style",
+        "lighting fixture type",
+        "crowd density",
+        "weather condition",
+        "grass condition",
+        "advertising signage",
+        "spectator attire",
+        "team logo visible",
+        "scoreboard present",
+        "seat color scheme",
+        "field marking type",
+        "stadium shape",
+        "access ramp present",
+        "vendor stall visible",
+        "fan merchandise",
+        "structural support type"
+      ],
+      "labels_by_attribute": {
+        "stadium roof style": [
+          "open-air",
+          "cantilevered roof",
+          "pitched roof",
+          "domed roof",
+          "hip roof",
+          "tented roof"
+        ],
+        "lighting fixture type": [
+          "spotlight",
+          "floodlight",
+          "halogen lamp",
+          "tracklight",
+          "uplight",
+          "strobe light"
+        ],
+        "crowd density": [
+          "sparse",
+          "moderate",
+          "dense",
+          "very dense",
+          "packed",
+          "overflowing"
+        ],
+        "weather condition": [
+          "clear sky",
+          "cloudy sky",
+          "rainy",
+          "snowing",
+          "foggy",
+          "stormy"
+        ],
+        "grass condition": [
+          "green and healthy",
+          "dry and patchy",
+          "worn and torn",
+          "muddy and slippery",
+          "sparse and brown",
+          "overgrown and wild"
+        ],
+        "advertising signage": [
+          "no signage",
+          "generic banner",
+          "team logo",
+          "sponsor logo",
+          "digital ad",
+          "billboard"
+        ],
+        "spectator attire": [
+          "team jersey",
+          "casual t-shirt",
+          "formal suit",
+          "sports uniform",
+          "national flag apparel",
+          "fan gear"
+        ],
+        "team logo visible": [
+          "logo visible",
+          "logo absent",
+          "logo blurred",
+          "logo damaged",
+          "logo obscured",
+          "logo not present"
+        ],
+        "scoreboard present": [
+          "scoreboard present",
+          "no scoreboard",
+          "scoreboard damaged",
+          "scoreboard missing",
+          "scoreboard obscured",
+          "scoreboard illegible",
+          "scoreboard absent"
+        ],
+        "seat color scheme": [
+          "red and white",
+          "blue and white",
+          "green and yellow",
+          "all red",
+          "all blue",
+          "multicolored"
+        ],
+        "field marking type": [
+          "grass",
+          "artificial turf",
+          "sand",
+          "dirt",
+          "water",
+          "snow"
+        ],
+        "stadium shape": [
+          "rectangular",
+          "round",
+          "oval",
+          "elliptical",
+          "pyramidal",
+          "hexagonal"
+        ],
+        "access ramp present": [
+          "ramp visible",
+          "no ramp",
+          "ramp missing",
+          "ramp obstructed",
+          "ramp present",
+          "ramp inaccessible"
+        ],
+        "vendor stall visible": [
+          "no vendor stall",
+          "small vendor stall",
+          "medium vendor stall",
+          "large vendor stall",
+          "multiple vendor stalls",
+          "vendor stall absent"
+        ],
+        "fan merchandise": [
+          "no merchandise",
+          "t-shirts visible",
+          "hats visible",
+          "flags visible",
+          "signs visible",
+          "costumes visible"
+        ],
+        "structural support type": [
+          "catwalk",
+          "column",
+          "truss",
+          "arch",
+          "beam",
+          "net"
+        ]
+      }
+    },
+    {
+      "location": "religious site",
+      "caption": "religious site",
+      "n_attrs_requested": 16,
+      "n_labels_requested": 6,
+      "attribute_categories": [
+        "building material",
+        "color palette",
+        "crowd density",
+        "weather condition",
+        "lighting quality",
+        "structural symmetry",
+        "presence of dome",
+        "presence of arches",
+        "religious symbol present",
+        "religious attire",
+        "ritual object present",
+        "vegetation density",
+        "flooring type",
+        "ornamental detail",
+        "object placement",
+        "people posture"
+      ],
+      "labels_by_attribute": {
+        "building material": [
+          "stone",
+          "brick",
+          "concrete",
+          "wood",
+          "metal",
+          "glass"
+        ],
+        "color palette": [
+          "monochrome",
+          "warm earth tones",
+          "vibrant reds",
+          "cool blues",
+          "gold accents",
+          "white dominant"
+        ],
+        "crowd density": [
+          "empty",
+          "sparse",
+          "moderate",
+          "dense",
+          "very dense",
+          "packed"
+        ],
+        "weather condition": [
+          "clear sky",
+          "cloudy",
+          "rain",
+          "snow",
+          "fog",
+          "storm"
+        ],
+        "lighting quality": [
+          "brightly lit",
+          "dimly lit",
+          "overexposed",
+          "underexposed",
+          "natural light",
+          "artificial light"
+        ],
+        "structural symmetry": [
+          "asymmetrical",
+          "vertically symmetrical",
+          "horizontally symmetrical",
+          "radially symmetrical",
+          "no symmetry",
+          "partially symmetrical"
+        ],
+        "presence of dome": [
+          "no dome",
+          "simple dome",
+          "dome with lantern",
+          "dome with cupola",
+          "dome with minaret",
+          "dome with spire"
+        ],
+        "presence of arches": [
+          "no arches",
+          "one arch",
+          "multiple arches",
+          "vaulted ceiling",
+          "dome",
+          "colonnade"
+        ],
+        "religious symbol present": [
+          "cross",
+          "crescent",
+          "star of David",
+          "lotus",
+          "om symbol",
+          "prayer beads"
+        ],
+        "religious attire": [
+          "headscarf",
+          "prayer beads",
+          "cross",
+          "crescent",
+          "star of David",
+          "robes"
+        ],
+        "ritual object present": [
+          "altar",
+          "prayer beads",
+          "candles",
+          "incense burner",
+          "bells",
+          "religious book"
+        ],
+        "vegetation density": [
+          "sparse",
+          "moderate",
+          "dense",
+          "overgrown",
+          "bare",
+          "thatched"
+        ],
+        "flooring type": [
+          "stone tiles",
+          "wooden planks",
+          "carpeted",
+          "marble",
+          "concrete",
+          "mosaic tiles"
+        ],
+        "ornamental detail": [
+          "intricate carvings",
+          "mosaic tiles",
+          "gilded arches",
+          "fresco murals",
+          "stained glass",
+          "ornate columns"
+        ],
+        "object placement": [
+          "central altar",
+          "side shrine",
+          "floor tiles",
+          "wall fresco",
+          "statue row",
+          "sacred canopy"
+        ],
+        "people posture": [
+          "standing",
+          "kneeling",
+          "praying",
+          "sitting",
+          "lying",
+          "standing upright",
+          "jumping",
+          "bending",
+          "running",
+          "walking"
+        ]
+      }
+    },
+    {
+      "location": "cultural site",
+      "caption": "cultural site",
+      "n_attrs_requested": 16,
+      "n_labels_requested": 6,
+      "attribute_categories": [
+        "building material",
+        "color palette",
+        "crowd density",
+        "weather condition",
+        "lighting quality",
+        "vegetation type",
+        "structural style",
+        "surface texture",
+        "presence of water",
+        "object type present",
+        "attire type present",
+        "symbol type present",
+        "object arrangement",
+        "material finish",
+        "scale relative to human",
+        "presence of animals"
+      ],
+      "labels_by_attribute": {
+        "building material": [
+          "stone",
+          "brick",
+          "wood",
+          "concrete",
+          "metal",
+          "glass",
+          "earth"
+        ],
+        "color palette": [
+          "earth tones",
+          "vibrant reds",
+          "monochromatic white",
+          "bold primary colors",
+          "pastel hues",
+          "neon accents"
+        ],
+        "crowd density": [
+          "empty",
+          "sparse",
+          "moderate",
+          "dense",
+          "very dense",
+          "overcrowded"
+        ],
+        "weather condition": [
+          "sunny",
+          "cloudy",
+          "rainy",
+          "snowy",
+          "foggy",
+          "stormy",
+          "overcast gloom"
+        ],
+        "lighting quality": [
+          "bright daylight",
+          "dim interior",
+          "flickering lamp",
+          "natural shadows",
+          "stark artificial",
+          "overcast gloom"
+        ],
+        "vegetation type": [
+          "desert vegetation",
+          "forest vegetation",
+          "grassland vegetation",
+          "aquatic vegetation",
+          "urban vegetation",
+          "rocky vegetation"
+        ],
+        "structural style": [
+          "Greek temple",
+          "Roman arch",
+          "Islamic dome",
+          "Mayan pyramid",
+          "European castle",
+          "Buddhist stupa"
+        ],
+        "surface texture": [
+          "smooth",
+          "rough",
+          "cracked",
+          "peeling",
+          "worn",
+          "fissured"
+        ],
+        "presence of water": [
+          "no water",
+          "pond",
+          "river",
+          "lakeside",
+          "seaside",
+          "artificial fountain"
+        ],
+        "object type present": [
+          "stone monument",
+          "ancient ruin",
+          "temple structure",
+          "statue sculpture",
+          "carved relief",
+          "mural painting"
+        ],
+        "attire type present": [
+          "traditional garment",
+          "formal dress",
+          "religious robe",
+          "casual clothing",
+          "ritual attire",
+          "modern outfit",
+          "uniform"
+        ],
+        "symbol type present": [
+          "cross",
+          "crescent",
+          "star",
+          "lotus",
+          "swastika",
+          "ankh"
+        ],
+        "object arrangement": [
+          "symmetrical layout",
+          "asymmetrical layout",
+          "random arrangement",
+          "grid pattern",
+          "clustered grouping",
+          "linear alignment"
+        ],
+        "material finish": [
+          "smooth stone",
+          "rough stone",
+          "polished wood",
+          "weathered wood",
+          "glazed tile",
+          "unpolished brick"
+        ],
+        "scale relative to human": [
+          "very large",
+          "large",
+          "medium",
+          "small",
+          "tiny",
+          "microscopic"
+        ],
+        "presence of animals": [
+          "no animals",
+          "wild animals",
+          "domestic animals",
+          "bird",
+          "insect",
+          "fish"
+        ]
+      }
+    },
+    {
+      "location": "office building",
+      "caption": "office building",
+      "n_attrs_requested": 16,
+      "n_labels_requested": 6,
+      "attribute_categories": [
+        "building material",
+        "color palette",
+        "crowd density",
+        "weather condition",
+        "window arrangement",
+        "roof type",
+        "lighting source",
+        "presence of trees",
+        "furniture visible",
+        "device present",
+        "signage type",
+        "person attire",
+        "door style",
+        "interior view",
+        "object clutter",
+        "vehicle presence"
+      ],
+      "labels_by_attribute": {
+        "building material": [
+          "brick",
+          "glass",
+          "steel",
+          "concrete",
+          "wood",
+          "stucco"
+        ],
+        "color palette": [
+          "monochromatic gray",
+          "warm beige tones",
+          "vibrant multi-color",
+          "cool blue tones",
+          "earth tone palette",
+          "neutrals only",
+          "neutral"
+        ],
+        "crowd density": [
+          "empty",
+          "sparse",
+          "moderate",
+          "dense",
+          "very dense",
+          "crowded"
+        ],
+        "weather condition": [
+          "clear",
+          "cloudy",
+          "rainy",
+          "snowy",
+          "foggy",
+          "stormy"
+        ],
+        "window arrangement": [
+          "grid of windows",
+          "vertical strip windows",
+          "clustered window groups",
+          "randomly placed windows",
+          "uniformly spaced windows",
+          "asymmetrical window layout"
+        ],
+        "roof type": [
+          "flat roof",
+          "sloped roof",
+          "domed roof",
+          "hip roof",
+          "gable roof",
+          "skylight roof"
+        ],
+        "lighting source": [
+          "overhead fluorescent",
+          "natural daylight",
+          "ceiling recessed",
+          "wall mounted lamp",
+          "floor standing lamp",
+          "outdoor streetlight"
+        ],
+        "presence of trees": [
+          "no trees",
+          "trees present",
+          "trees sparse",
+          "trees dense",
+          "trees near building",
+          "trees far from building"
+        ],
+        "furniture visible": [
+          "no furniture",
+          "desk visible",
+          "chair visible",
+          "cabinet visible",
+          "table visible",
+          "sofa visible"
+        ],
+        "device present": [
+          "computer",
+          "phone",
+          "printer",
+          "desk lamp",
+          "monitor",
+          "keyboard"
+        ],
+        "signage type": [
+          "company logo",
+          "directional sign",
+          "exit sign",
+          "for rent",
+          "no parking",
+          "parking sign"
+        ],
+        "person attire": [
+          "business suit",
+          "casual shirt",
+          "formal coat",
+          "hoodie",
+          "uniform",
+          "sweatpants"
+        ],
+        "door style": [
+          "sliding glass",
+          "wooden panel",
+          "metal swing door",
+          "glass entrance",
+          "double pivoting",
+          "recessed frame"
+        ],
+        "interior view": [
+          "view from outside",
+          "view from inside",
+          "view from above",
+          "view from below",
+          "view from doorway",
+          "view from window"
+        ],
+        "object clutter": [
+          "minimal clutter",
+          "moderate clutter",
+          "heavy clutter",
+          "sparse objects",
+          "dense objects",
+          "empty space"
+        ],
+        "vehicle presence": [
+          "no vehicles",
+          "car present",
+          "truck present",
+          "bus present",
+          "motorcycle present",
+          "bike present"
+        ]
+      }
+    },
+    {
+      "location": "public transport",
+      "caption": "public transport",
+      "n_attrs_requested": 16,
+      "n_labels_requested": 6,
+      "attribute_categories": [
+        "vehicle type",
+        "passenger count",
+        "weather condition",
+        "lighting level",
+        "time of day",
+        "vehicle color",
+        "crowd density",
+        "presence of barrier",
+        "presence of signage",
+        "presence of route indicator",
+        "presence of seat",
+        "presence of handrail",
+        "presence of ticket machine",
+        "presence of backpack",
+        "presence of umbrella",
+        "presence of child"
+      ],
+      "labels_by_attribute": {
+        "vehicle type": [
+          "bus",
+          "train",
+          "car",
+          "bike",
+          "tram",
+          "motorcycle",
+          "gondola"
+        ],
+        "passenger count": [
+          "empty",
+          "few passengers",
+          "moderate passengers",
+          "crowded",
+          "overcrowded",
+          "no passengers"
+        ],
+        "weather condition": [
+          "clear sky",
+          "partly cloudy",
+          "overcast",
+          "rainy",
+          "snowing",
+          "foggy"
+        ],
+        "lighting level": [
+          "dim",
+          "bright",
+          "overcast",
+          "dusk",
+          "night",
+          "flashlight"
+        ],
+        "time of day": [
+          "early morning",
+          "midday",
+          "afternoon",
+          "evening",
+          "night",
+          "dusk"
+        ],
+        "vehicle color": [
+          "white",
+          "black",
+          "red",
+          "blue",
+          "green",
+          "yellow",
+          "silver",
+          "gray"
+        ],
+        "crowd density": [
+          "empty",
+          "sparse",
+          "moderate",
+          "dense",
+          "very dense",
+          "crowded"
+        ],
+        "presence of barrier": [
+          "no barrier",
+          "low barrier",
+          "medium barrier",
+          "high barrier",
+          "no barrier visible",
+          "barrier present"
+        ],
+        "presence of signage": [
+          "no signage",
+          "directional signs",
+          "route indicators",
+          "stop signs",
+          "fare posters",
+          "advertisements"
+        ],
+        "presence of route indicator": [
+          "no route indicator",
+          "digital route display",
+          "physical route sign",
+          "route map visible",
+          "route number shown",
+          "route name displayed"
+        ],
+        "presence of seat": [
+          "no seat",
+          "bench",
+          "rows of seats",
+          "standing only",
+          "aisle chair",
+          "backpack seat"
+        ],
+        "presence of handrail": [
+          "handrail present",
+          "handrail absent",
+          "handrail damaged",
+          "handrail missing",
+          "handrail intact",
+          "handrail obscured"
+        ],
+        "presence of ticket machine": [
+          "ticket machine present",
+          "no ticket machine",
+          "ticket machine missing",
+          "ticket machine visible",
+          "ticket machine absent",
+          "ticket machine not visible"
+        ],
+        "presence of backpack": [
+          "backpack present",
+          "no backpack",
+          "backpack visible",
+          "backpack absent",
+          "backpack obscured",
+          "backpack not visible"
+        ],
+        "presence of umbrella": [
+          "umbrella present",
+          "umbrella absent",
+          "umbrella open",
+          "umbrella closed",
+          "umbrella inside",
+          "umbrella outside",
+          "no umbrella"
+        ],
+        "presence of child": [
+          "no child",
+          "child present",
+          "child riding",
+          "child standing",
+          "child seated",
+          "child walking"
+        ]
+      }
+    },
+    {
+      "location": "a street with people, cars, buses, bicycles, etc.",
+      "caption": "a street with people, cars, buses, bicycles, etc.",
+      "n_attrs_requested": 16,
+      "n_labels_requested": 6,
+      "attribute_categories": [
+        "crowd density",
+        "weather condition",
+        "time of day",
+        "road surface type",
+        "vehicle type mix",
+        "pedestrian attire",
+        "bicycle presence",
+        "bus presence",
+        "traffic light presence",
+        "building height",
+        "tree presence",
+        "signage type",
+        "street furniture",
+        "lighting style",
+        "object clutter",
+        "color palette"
+      ],
+      "labels_by_attribute": {
+        "crowd density": [
+          "sparse",
+          "moderate",
+          "dense",
+          "very dense",
+          "extremely dense",
+          "overflowing"
+        ],
+        "weather condition": [
+          "clear sky",
+          "overcast",
+          "light rain",
+          "heavy rain",
+          "snowing",
+          "foggy",
+          "dusk"
+        ],
+        "time of day": [
+          "daytime",
+          "dusk",
+          "night",
+          "early morning",
+          "late afternoon",
+          "midday"
+        ],
+        "road surface type": [
+          "asphalt",
+          "concrete",
+          "cobblestone",
+          "brick",
+          "gravel",
+          "paved"
+        ],
+        "vehicle type mix": [
+          "cars only",
+          "buses only",
+          "bicycles only",
+          "mixed vehicles",
+          "no vehicles",
+          "motorcycles only"
+        ],
+        "pedestrian attire": [
+          "casual shirt",
+          "formal suit",
+          "hoodie",
+          "sari",
+          "uniform",
+          "headscarf"
+        ],
+        "bicycle presence": [
+          "no bicycle",
+          "one bicycle",
+          "multiple bicycles",
+          "bicycle lane",
+          "bicycle parked",
+          "bicycle in motion"
+        ],
+        "bus presence": [
+          "no bus",
+          "one bus",
+          "two buses",
+          "many buses",
+          "bus only",
+          "bus absent"
+        ],
+        "traffic light presence": [
+          "traffic light absent",
+          "traffic light red",
+          "traffic light yellow",
+          "traffic light green",
+          "traffic light malfunctioning",
+          "traffic light unlit"
+        ],
+        "building height": [
+          "low-rise",
+          "mid-rise",
+          "high-rise",
+          "skyscraper",
+          "tower",
+          "underground"
+        ],
+        "tree presence": [
+          "no trees",
+          "few trees",
+          "moderate trees",
+          "many trees",
+          "dense trees",
+          "treeless"
+        ],
+        "signage type": [
+          "traffic sign",
+          "storefront sign",
+          "street light",
+          "parking meter",
+          "crosswalk marking",
+          "bus stop sign"
+        ],
+        "street furniture": [
+          "bench",
+          "trash can",
+          "traffic light",
+          "street lamp",
+          "crosswalk",
+          "sign post"
+        ],
+        "lighting style": [
+          "daylight",
+          "overcast",
+          "artificial",
+          "dusk",
+          "night",
+          "strobe"
+        ],
+        "object clutter": [
+          "very sparse",
+          "slightly cluttered",
+          "moderately cluttered",
+          "heavily cluttered",
+          "extremely cluttered",
+          "barely visible"
+        ],
+        "color palette": [
+          "dominant warm tones",
+          "dominant cool tones",
+          "high contrast",
+          "low contrast",
+          "monochromatic",
+          "vibrant colors"
+        ]
+      }
+    }
+  ]
+}

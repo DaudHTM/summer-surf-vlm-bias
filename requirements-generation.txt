@@ -1,0 +1,10 @@
+# Install a CUDA-compatible torch build for the target host.
+-r requirements.txt
+torch
+diffusers
+transformers
+accelerate
+safetensors
+sentencepiece
+protobuf
+pycocotools

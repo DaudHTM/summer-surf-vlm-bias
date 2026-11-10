@@ -1,0 +1,7 @@
+# Analysis and Ollama-based annotation. Original environment was not supplied.
+numpy
+pandas
+matplotlib
+seaborn
+Pillow
+requests
